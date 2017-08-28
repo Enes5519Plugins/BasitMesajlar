@@ -7,12 +7,12 @@ import cn.nukkit.utils.ConfigSection;
 import java.io.File;
 import java.util.LinkedHashMap;
 
-public class BasitMesajlar extends PluginBase {
-
+public class BasitMesajlar extends PluginBase{
+    
     Config cfg;
 
     @Override
-    public void onEnable() {
+    public void onEnable(){
         this.getServer().getLogger().info("§6BasitMesajlar §8» §aEklenti aktif!");
         LinkedHashMap<String, Object> hashMap = new LinkedHashMap<>();
         hashMap.put("giris-mesaj","§8» §f{oyuncu} §aoyuna katıldı!");
